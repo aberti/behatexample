@@ -1,0 +1,11 @@
+default:
+  suites:
+    web_features:
+        paths:    [ %paths.base%/features/web ]
+        contexts: [ WebContext ]
+    api_features:
+        paths:    [ %paths.base%/features/api ]
+        contexts: [ ApiContext ]
+    users_features:
+        paths:    [ %paths.base%/features/users ]
+        contexts: [ UsersContext ]
